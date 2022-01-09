@@ -1,0 +1,73 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f1f1f1;
+    height: 100vh;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+.success, .error{
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+.success{
+    background: green;
+}
+.error{
+    background: red;
+}
+h1{
+    text-align: center;
+
+}
+label{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+input{
+    display: block;
+    font-size: 20px;
+    padding: 15px;
+    width: 40%;
+    margin: 0 auto;
+}
+.inputs{
+    margin: 40px;
+}
+.btn{
+    background: #040466;
+    color: #fff;
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.delete{
+    width: 30px;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 10px;
+    background: red;
+    cursor: pointer;
+}
+table{
+    width: 100%;
+}
+th{
+    width: 33%;
+
+}
+td{
+    font-size: 25px;
+    text-align: center;
+}
